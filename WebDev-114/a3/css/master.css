@@ -1,0 +1,36 @@
+head {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1000px;
+    font-size: 200%;
+    color: red;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 750px;
+    color: crimson;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    max-width: 600px;
+    color: orangered;
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: lightcyan;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+img {
+    margin: 0 auto;
+}
+
