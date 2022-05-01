@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Vollmer WEBDEV 114 -  a7 Contact Form</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form></form>
+    <input type="text" placeholder="Enter your last name." id="lastName" class="text" />
+    <br><br>
+    <input type="text" placeholder="Enter your first name." id="firstName" class="text" />
+    <br><br>
+    <input type="email" placeholder="Enter your email." id="email" class="text" />
+    <br><br>
+    <input type="text" placeholder="Subject" id="subject" class="text"/>
+    <br><br>
+    <input type="date" class="date" id="date" />
+    <br><br>
+    <input type="tel" placeholder="XXX-XXX-XXXX" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="text" />
+    <br><br>
+    <input type="text" placeholder="Enter any comments here." id="comments" class="comments" />
+    <br><br>
+    <button class="button" onclick="sendForm();">Send</button>
+</body>
+</html>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/scripts.js"></script>

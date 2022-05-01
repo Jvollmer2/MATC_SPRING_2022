@@ -1,0 +1,33 @@
+h1 {
+    background-color: burlywood;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+body {
+    background-color:blanchedalmond;
+    padding: 2%;
+}
+
+.date {
+    cursor: pointer;
+}
+
+.button {
+    background-color: burlywood;
+    padding: 1%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.text {
+    width: 33%;
+}
+
+.comments {
+    width: 33%;
+    height: 10ex;
+    text-align: center;
+}
